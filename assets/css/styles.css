@@ -33,6 +33,27 @@ li a{
 }
 
 .container{
+    width: 100%;
     margin-top: 15%;
     margin-left: 3%;
+    background-image: url(../images/bg.png);
+       display: grid;
+   grid-template-columns:repeat(2,1fr);
+    .para1{
+    margin: 5% 0 5% 0;
 }
+.colored-title{
+    color: var(--theme-color);
+}
+button{
+    background-color: var(--theme-color) !important;
+    border: #6fc6c9;
+    padding: 1%;
+    color: white;
+
+}
+.photo{
+    margin: auto;
+}
+}
+
