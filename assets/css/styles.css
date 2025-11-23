@@ -20,8 +20,8 @@ li a{
     margin: auto;
 }
 .logo{
-    margin: auto;
-  
+margin: auto;
+margin-left: 15%;  
 }
 .icons{
     margin: auto;
@@ -56,7 +56,27 @@ button{
     margin: auto;
 }
 }
+.about{
+    width: 100%;
+    margin-top: 15%;
+    margin-left: 3%;
+       display: grid;
+   grid-template-columns:repeat(2,1fr);
+    .para1{
+    margin: 5% 0 5% 0;
+}
 
+button{
+    background-color: var(--theme-color) !important;
+    border: #6fc6c9;
+    padding: 1%;
+    color: white;
+
+}
+.photo{
+    margin: auto;
+}
+}
 .service-card {
   display: flex;             
   flex-direction: row;      
@@ -75,4 +95,38 @@ i{
 }  
 
 }
+.featured  h1{
+        text-align: center;
+    }
+.carousel{
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    gap: 1%;
+    .card1{
+        text-align: center;
+        border: solid #9b9b9b;
+        padding: 1%;
+    }
+    button{
+        border: solid var(--theme-color);
+        background-color: white;
+        color: black;
+    }
+   
+    img{
+        width: 70%;
+        height: 40%;
+    }
+    .highlited{
+        color: #9b9b9b;
+    }
+    .highlited-theme{
+        color: var(--theme-color);
+    }
+    .old{
+        text-decoration:line-through;
 
+    }
+}
