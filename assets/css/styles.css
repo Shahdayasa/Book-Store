@@ -1,35 +1,70 @@
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
-:root{
-    --theme-color:#6fc6c9;  }
-.navbar{
-    display: grid;
-   grid-template-columns:repeat(3,1fr) ;
-   border-bottom: solid var(--theme-color);
-     box-shadow: 0 3px 8px rgba(106, 186, 190, 0.5);
-  overflow: hidden;
+:root {
+    --theme-color: #6fc6c9;
+    --transition-speed: 0.3s;
 }
-ul{
+
+.navbar {
     display: flex;
-    flex-direction: row;
-    gap: 3%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: solid 2px var(--theme-color);
+    box-shadow: 0 3px 8px rgba(106, 186, 190, 0.5);
+    position: relative;
+}
+
+.logo img {
+    max-width: 120px;
+    display: block;
+}
+
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
     list-style: none;
-}
-li a{
-    text-decoration: none;
-    color: black;
-    margin: auto;
-}
-.logo{
-margin: auto;
-margin-left: 15%;  
-}
-.icons{
-    margin: auto;
-}
-.icons ul{
+    display: flex;
+    gap: 30px;
     padding: 0;
     margin: 0;
-    gap: 20%;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: color var(--transition-speed);
+}
+
+li a:hover {
+    color: var(--theme-color);
+}
+
+.icons ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+.icons i {
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: color var(--transition-speed);
+}
+
+.icons i:hover {
+    color: var(--theme-color);
+}
+.menu-icon {
+    display: none;
+}
+
+#menu-check {
+    display: none;
 }
 
 .container{
@@ -79,7 +114,8 @@ button{
 }
 .service-card {
   display: flex;             
-  flex-direction: row;      
+  flex-direction: row; 
+       
   overflow: auto;            
   gap: 1rem;                
   margin-left: 3rem;         
