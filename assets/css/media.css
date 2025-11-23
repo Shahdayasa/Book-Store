@@ -76,6 +76,15 @@
     grid-template-columns: 1fr;
     }
 }
-@media screen and (max-width: 414px){
+@media screen and (max-width: 1024px) {
+  .service-card .details {
+    flex: 0 0 45%;           /* 2 عناصر في الصف */
+  }
+}
 
+/* شاشات صغيرة → عنصر واحد لكل صف */
+@media screen and (max-width: 768px) {
+  .service-card .details {
+    flex: 0 0 90%;           /* عنصر واحد لكل صف */
+  }
 }

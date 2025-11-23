@@ -114,8 +114,7 @@ button{
 }
 .service-card {
   display: flex;             
-  flex-direction: row; 
-       
+  flex-direction: row;  
   overflow: auto;            
   gap: 1rem;                
   margin-left: 3rem;         
