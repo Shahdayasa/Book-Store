@@ -57,3 +57,22 @@ button{
 }
 }
 
+.service-card {
+  display: flex;             
+  flex-direction: row;      
+  overflow: auto;            
+  gap: 1rem;                
+  margin-left: 3rem;         
+  margin-right: 3rem;        
+  margin-top: 3rem; 
+  .details {
+ border: solid var(--theme-color);
+text-align: center;
+margin: 1%;
+i{
+    margin-top: 5%;
+}
+}  
+
+}
+
