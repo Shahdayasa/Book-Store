@@ -73,18 +73,27 @@
     }
 
  .container{
+     text-align: center;
     grid-template-columns: 1fr;
+    img{
+        margin: auto;
+    }
+    }
+    .about{
+        text-align: center;
+        grid-template-columns: 1fr;
+        img{
+            text-align: center;
+            margin: auto;
+        }
     }
 }
-@media screen and (max-width: 1024px) {
-  .service-card .details {
-    flex: 0 0 45%;           /* 2 عناصر في الصف */
+
+@media screen and (max-width: 414px) {
+  .service-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
   }
 }
 
-/* شاشات صغيرة → عنصر واحد لكل صف */
-@media screen and (max-width: 768px) {
-  .service-card .details {
-    flex: 0 0 90%;           /* عنصر واحد لكل صف */
-  }
-}
