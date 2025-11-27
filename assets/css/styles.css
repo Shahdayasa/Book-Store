@@ -181,4 +181,146 @@ button{
         text-decoration:line-through;
 
     }
+
+   
+
 }
+
+ 
+
+        footer {
+    background-color: #e5e5e5;
+    padding: 2.5rem 1.25rem 1.25rem;
+}
+
+.footer1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 75rem;
+    margin: 0 auto;
+    gap: 1.875rem;
+}
+
+.logo-footer {
+    flex: 0.75;
+    min-width: 15.625rem;
+}
+
+.logo-footer img {
+    width: 7.5rem;
+    margin-bottom: 0.9375rem;
+    max-width: 100%;
+}
+
+.logo-footer p {
+    line-height: 1.5;
+    color: #555;
+    margin-top: 0.625rem;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 12.5rem;
+}
+
+.footer-col h3 {
+    color: #333;
+    margin-bottom: 1.25rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+
+.footer-col ul {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 0;
+}
+
+.footer-col ul li a {
+    color: #555;
+    transition: color 0.3s;
+    text-decoration: none;
+}
+
+.footer-col ul li a:hover {
+    color: var(--theme-color);
+}
+
+.footer-col p {
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    margin-bottom: 0.75rem;
+    color: #555;
+}
+
+.footer-col .social-icons {
+    display: flex;
+    gap:1.5rem;
+    margin-top: 0.9375rem;
+}
+
+.footer-col .social-icons i {
+    font-size: 1.2rem;
+    color: #555;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.footer-col .social-icons i:hover {
+    color: var(--theme-color);
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.625rem;
+}
+
+.newsletter-input {
+    padding: 0.625rem 0.75rem;
+    border: 0.0625rem solid grey;
+    background-color: #cacaca;
+    border-radius:1.5rem;
+    font-size: 0.9rem;
+    max-width: 100%;
+}
+#subscribe-btn {
+    background-color: var(--theme-color) !important;
+    color: white;
+    border: none;
+    padding: 0.625rem 0.9375rem  ;
+    margin: 0.25rem;
+   
+    border-radius:1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: 500;
+    max-width: 100%;
+}
+
+.newsletter-form button:hover {
+    background-color: #5ab0b3;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 0.0625rem solid #ddd;
+    color: #555;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bottom span {
+    color: var(--theme-color);
+    font-weight: 500;
+}
+
+    
+    

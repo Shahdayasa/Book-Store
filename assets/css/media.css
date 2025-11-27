@@ -97,3 +97,138 @@
   }
 }
 
+@media screen and (max-width: 1024px) {
+    /* كود iPad Pro هنا */
+    .navbar {
+        padding: 0.625rem 1.25rem;
+    }
+    .menu-icon {
+        display: block;
+        order: 2;
+    }
+
+    .logo {
+        order: 1;
+    }
+
+    .icons {
+        order: 3;
+    }
+
+    label .open,
+    label .close {
+        font-size: 1.5rem;
+        cursor: pointer;
+        display: block;
+    }
+
+    label .close {
+        display: none;
+    }
+
+    #menu-check:checked ~ label .open {
+        display: none;
+    }
+    
+    #menu-check:checked ~ label .close {
+        display: block;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+    }
+
+    #menu-check:checked ~ nav {
+        display: block;
+    }
+
+    nav ul {
+        flex-direction: column;
+        background-color: rgba(255, 255, 255, 0.98);
+        padding: 1.25rem 0;
+        gap: 0;
+        text-align: center;
+        backdrop-filter: blur(0.625rem);
+        box-shadow: 0 0.3125rem 0.625rem rgba(0, 0, 0, 0.1);
+    }
+
+    nav ul li {
+        border-bottom: 0.0625rem solid #f0f0f0;
+    }
+
+    nav ul li:last-child {
+        border-bottom: none;
+    }
+
+    nav ul li a {
+        display: block;
+        padding: 0.9375rem 1.25rem;
+        font-size: 1.1rem;
+    }
+
+    .container{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .container img{
+        margin: auto;
+    }
+    
+    .about{
+        text-align: center;
+        grid-template-columns: 1fr;
+    }
+    .about img{
+        text-align: center;
+        margin: auto;
+    }
+    
+    /* footer   iPad Pro   */
+    .footer1 {
+      
+        gap: 1rem;
+    }
+    
+    .logo-footer, .footer-col {
+        min-width: 10%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+        .footer1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* two coloms for each row */
+        gap: 1.5rem;
+    }
+    /*  iPhone XR  */
+    .service-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    /* footer iPhone XR */
+    footer {
+        padding: 1.875rem 0.9375rem 0.9375rem;
+    }
+    
+    .footer-col ul {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .container, .about {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+
