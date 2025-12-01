@@ -139,6 +139,14 @@ display: block;
      margin: 8px 0;
 }
 
+
+.Reviews .Reviews-flex{
+  display: grid;
+        grid-template-columns: repeat(1, 1fr); /* one coloms for each row */
+           gap: 1rem;
+
+}
+
  .footer1 {
         display: grid;
         grid-template-columns: repeat(2, 1fr); /* two coloms for each row */

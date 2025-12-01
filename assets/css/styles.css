@@ -219,7 +219,7 @@ margin: auto;
   
 }
 .Arrivals button:hover{
-        background: #5ab0b3;
+        background:var(--theme-color);
 
 }
 .Arrivals .star-rating{
@@ -248,7 +248,7 @@ flex-wrap: nonwrap;
 
 }
 .Reviews .card2{
-    border: solid #5ab0b3;
+    border: solid var(--theme-color);
     padding: 1vw;
     margin: auto;
     width: 50%;
@@ -256,6 +256,9 @@ flex-wrap: nonwrap;
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 15px rgba(60, 176, 179, 0.2);
+
+    
 
     
 
