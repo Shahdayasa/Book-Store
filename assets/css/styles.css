@@ -219,7 +219,7 @@ margin: auto;
   
 }
 .Arrivals button:hover{
-        background: #5ab0b3;
+        background:var(--theme-color);
 
 }
 .Arrivals .star-rating{
@@ -243,19 +243,22 @@ margin-bottom: 5%;
 .Reviews .Reviews-flex{
 display: flex;
 gap: 1vw;
-flex-wrap: nonwrap;
+flex-wrap: nowrap;
 
 
 }
 .Reviews .card2{
-    border: solid #5ab0b3;
+    border: solid var(--theme-color);
     padding: 1vw;
     margin: auto;
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
     overflow: hidden;
+    box-shadow: 0 0 15px rgba(60, 176, 179, 0.2);
+
+    
 
     
 
@@ -275,7 +278,7 @@ flex-wrap: nonwrap;
 }
 .Reviews .card2 img{
 
-    width: 30%;
+    width: 20%;
   
     border-radius: 50%;
     object-fit: cover;
@@ -295,7 +298,68 @@ color:#ddd;
 
 
 }
+.banner{
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+     position: relative;
+    overflow: hidden;
 
+}
+.banner button{
+     position: absolute;
+    top: 65%; 
+    left: 8%;  
+    
+
+    background: var(--theme-color);
+    color: white;
+    padding: 0.7vw 1.4vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
+.Blog{
+    display: flex;
+    flex-direction: row;
+     padding:  10vw;
+ max-width: 1200px;
+margin: auto;  
+}
+.Blog .Blog-flex{
+    display: flex;
+gap: 1vw;
+flex-wrap: nowrap;
+}
+.Blog .card3{
+    padding: 1vw;
+    width: 32%;
+    display: flex;
+    flex-direction: column; 
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.40);
+
+}
+.Blog h4{
+    color: var(--theme-color);
+    font-size: large;
+}
+.Blog img{
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+ .Blog .card3 .icons{
+    display: flex;
+
+    justify-content: space-between;
+    color: var(--theme-color);
+}
 
 
 
