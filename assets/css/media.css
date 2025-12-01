@@ -233,6 +233,22 @@ display: block;
         text-align: center;
         margin: auto;
     }
+/*New Arrival Ipad pro*/
+
+.Arrivals .arrivals-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5vw;
+    
+}
+.Arrivals .star-rating{
+display: block;
+    color: #f4c300;
+     margin: 8px 0;
+}
+
+
+
     
     /* footer   iPad Pro   */
     .footer1 {
