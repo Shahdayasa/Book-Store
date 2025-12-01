@@ -195,10 +195,7 @@ font-size: 2vw;
 .Arrivals{
  padding:  5vw;
  max-width: 1200px;
-margin: auto;
-
- 
-  
+margin: auto;  
 }
 .Arrivals .arrivals-grid{
     display: grid;
@@ -230,6 +227,77 @@ margin: auto;
     color: #f4c300;
      margin: 8px 0;
 }
+
+.Reviews{
+    display: flex;
+    flex-direction: column;
+     padding:  5vw;
+ max-width: 1200px;
+margin: auto;  
+}
+
+.Reviews h1{
+text-align: center;
+margin-bottom: 5%; 
+}
+.Reviews .Reviews-flex{
+display: flex;
+gap: 1vw;
+flex-wrap: nonwrap;
+
+
+}
+.Reviews .card2{
+    border: solid #5ab0b3;
+    padding: 1vw;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+
+    
+
+}
+
+.Reviews .card2 p{
+   
+
+    line-height: 1;
+   word-break:normal;
+
+}
+
+.Reviews h4{
+ margin-top: 1vw;
+ margin-bottom: 0vw;
+}
+.Reviews .card2 img{
+
+    width: 30%;
+  
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.Reviews .fa-quote-right{
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+font-size: 7vw;
+opacity: 0.8;
+pointer-events: none;
+color:#ddd;
+
+
+
+}
+
+
+
 
 
         footer {
