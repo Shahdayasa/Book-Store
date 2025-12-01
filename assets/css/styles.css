@@ -229,24 +229,60 @@ margin: auto;
 }
 
 .Reviews{
+    display: flex;
+    flex-direction: column;
      padding:  5vw;
  max-width: 1200px;
 margin: auto;  
 }
+
+.Reviews h1{
+text-align: center;
+margin-bottom: 5%; 
+}
 .Reviews .Reviews-flex{
 display: flex;
+gap: 1vw;
 
-}
-.Reviews .img{
 
-  
 }
 .Reviews .card2{
     border: solid #5ab0b3;
-    padding: 5vw;
+    padding: 1vw;
     margin: auto;
-    gap: 30px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
 
+    
+
+}
+
+.Reviews .card2 p{
+   
+
+    line-height: 1;
+   word-break:normal;
+
+}
+
+.Reviews h4{
+ margin: 0vw;
+}
+.Reviews .card2 img{
+
+    width: 30%;
+  
+    border-radius: 50%;
+    object-fit: cover;
+
+
+}
+
+.Reviews .fa-quote-right{
+color:#ddd;
+align-self: flex-end;
+width: 100px;
 }
 
 
