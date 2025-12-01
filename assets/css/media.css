@@ -95,10 +95,56 @@
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
   }
+
+.Arrivals .arrivals-grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 5vw;
+    
+}
+
+.Arrivals .star-rating{
+display: block;
+    color: #f4c300;
+     margin: 8px 0;
+}
+
+ .footer1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* two coloms for each row */
+        gap: 1.5rem;
+    }
+    /*  iPhone XR  */
+    .service-card {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    /* footer iPhone XR */
+    footer {
+        padding: 1.875rem 0.9375rem 0.9375rem;
+    }
+    
+    .footer-col ul {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+    
+    .newsletter-form {
+        flex-direction: column;
+    }
+    
+    .container, .about {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+
 }
 
 @media screen and (max-width: 1024px) {
-    /* كود iPad Pro هنا */
+    /*  iPad Pro  */
     .navbar {
         padding: 0.625rem 1.25rem;
     }
@@ -187,6 +233,22 @@
         text-align: center;
         margin: auto;
     }
+/*New Arrival Ipad pro*/
+
+.Arrivals .arrivals-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5vw;
+    
+}
+.Arrivals .star-rating{
+display: block;
+    color: #f4c300;
+     margin: 8px 0;
+}
+
+
+
     
     /* footer   iPad Pro   */
     .footer1 {
@@ -199,36 +261,5 @@
     }
 }
 
-@media screen and (max-width: 414px) {
-        .footer1 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* two coloms for each row */
-        gap: 1.5rem;
-    }
-    /*  iPhone XR  */
-    .service-card {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 1rem;
-    }
-    
-    /* footer iPhone XR */
-    footer {
-        padding: 1.875rem 0.9375rem 0.9375rem;
-    }
-    
-    .footer-col ul {
-        flex-direction: column;
-        gap: 0.75rem;
-    }
-    
-    .newsletter-form {
-        flex-direction: column;
-    }
-    
-    .container, .about {
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-    }
-}
+
 
