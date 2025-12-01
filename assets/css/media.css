@@ -177,6 +177,31 @@ color:#ddd;
 
 
 }
+.banner{
+    display: flex;
+    width: 200%;
+    padding: 0%;
+    margin: 0%;
+     position: relative;
+    overflow: hidden;
+
+}
+.banner button{
+   
+     position: absolute;
+    top: 65%; 
+    left: 18%;  
+    
+
+    background: var(--theme-color);
+    color: white;
+    padding: 0.7vw 1.4vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+
+}
 
  .footer1 {
         display: grid;

@@ -308,14 +308,17 @@ color:#ddd;
 
 }
 .banner button{
-    border: none;
-    color: white;
-    padding: 0.5vw;
- background:var(--theme-color);
- position: absolute;
-  bottom: 0.5vw;
+     position: absolute;
+    top: 65%; 
+    left: 8%;  
+    
 
-    left: 1vw;
+    background: var(--theme-color);
+    color: white;
+    padding: 0.7vw 1.4vw;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
 
 }
