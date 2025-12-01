@@ -224,7 +224,7 @@ margin: auto;
 }
 .Arrivals .star-rating{
     display: inline-flex;
-    color: #f4c300;
+    color: var(--theme-color);
      margin: 8px 0;
 }
 
@@ -242,7 +242,7 @@ margin-bottom: 5%;
 }
 .Reviews .Reviews-flex{
 display: flex;
-gap: 1vw;
+gap: 5vw;
 flex-wrap: nowrap;
 
 
@@ -296,6 +296,11 @@ pointer-events: none;
 color:#ddd;
 
 
+
+}
+.Reviews .star-rating{
+
+    color: var(--theme-color);
 
 }
 .banner{
