@@ -251,7 +251,7 @@ flex-wrap: nonwrap;
     border: solid var(--theme-color);
     padding: 1vw;
     margin: auto;
-    width: 50%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -278,7 +278,7 @@ flex-wrap: nonwrap;
 }
 .Reviews .card2 img{
 
-    width: 30%;
+    width: 20%;
   
     border-radius: 50%;
     object-fit: cover;
