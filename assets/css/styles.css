@@ -242,7 +242,7 @@ margin-bottom: 5%;
 }
 .Reviews .Reviews-flex{
 display: flex;
-gap: 5vw;
+gap: 1vw;
 flex-wrap: nowrap;
 
 
@@ -336,11 +336,12 @@ margin: auto;
 }
 .Blog .Blog-flex{
     display: flex;
-gap: 1vw;
+gap: 5vw;
 flex-wrap: nowrap;
 }
 .Blog .card3{
-    padding: 1vw;
+  
+  padding: 0%;
     width: 32%;
     display: flex;
     flex-direction: column; 
@@ -351,12 +352,15 @@ box-shadow: 0 0 2px rgba(0, 0, 0, 0.40);
     color: var(--theme-color);
     font-size: large;
 }
+.Blog .content{
+    padding: 1.5vw;
+}
 .Blog img{
 
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-
+    max-height: 200px;
+   
+ object-fit: cover;
 }
 
  .Blog .card3 .icons{
