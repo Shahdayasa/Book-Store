@@ -186,7 +186,50 @@ button{
 
 }
 
+.Arrivals h1{
+text-align: center;
+margin-bottom: 2rem;
+font-size: 2rem;
+
+}
+.Arrivals{
+ padding:  40px 20px;
+ max-width: 1200px;
+margin: auto;
+
  
+  
+}
+.Arrivals .arrivals-grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+    
+}
+.Arrivals .card1{
+  border: solid #9b9b9b;
+    padding: 15px;
+ 
+    background: #fff;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.Arrivals .card1 img{
+    width: 80%;
+    height: 70%;
+    object-fit: cover;
+  
+}
+.Arrivals button:hover{
+        background: #5ab0b3;
+
+}
+.Arrivals .star-rating{
+    color: #f4c300;
+        margin: 8px 0;
+}
+
 
         footer {
     background-color: #e5e5e5;
