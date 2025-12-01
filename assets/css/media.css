@@ -102,7 +102,25 @@ display: block;
      margin: 8px 0;
 }
 
+.Reviews .Reviews-flex{
+  display: grid;
+        grid-template-columns: repeat(2, 1fr); /* one coloms for each row */
+           gap: 1rem;
 
+}
+.Reviews .fa-quote-right{
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+font-size: 10vw;
+padding-right: 10vw;
+opacity: 0.8;
+pointer-events: none;
+color:#ddd;
+
+
+
+}
 
     
     /* footer   iPad Pro   */
@@ -144,6 +162,19 @@ display: block;
   display: grid;
         grid-template-columns: repeat(1, 1fr); /* one coloms for each row */
            gap: 1rem;
+
+}
+.Reviews .fa-quote-right{
+    position: absolute;
+    top: 0.5vw;
+    right: 1vw;
+font-size: 20vw;
+padding-right: 10vw;
+opacity: 0.8;
+pointer-events: none;
+color:#ddd;
+
+
 
 }
 

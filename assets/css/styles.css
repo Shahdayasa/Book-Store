@@ -298,7 +298,27 @@ color:#ddd;
 
 
 }
+.banner{
+    display: flex;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+     position: relative;
+    overflow: hidden;
 
+}
+.banner button{
+    border: none;
+    color: white;
+    padding: 0.5vw;
+ background:var(--theme-color);
+ position: absolute;
+  bottom: 0.5vw;
+
+    left: 1vw;
+
+
+}
 
 
 
