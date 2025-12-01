@@ -243,7 +243,7 @@ margin-bottom: 5%;
 .Reviews .Reviews-flex{
 display: flex;
 gap: 1vw;
-flex-wrap: nonwrap;
+flex-wrap: nowrap;
 
 
 }
@@ -321,6 +321,50 @@ color:#ddd;
     cursor: pointer;
 
 
+}
+.Blog{
+    display: flex;
+    flex-direction: row;
+     padding:  10vw;
+ max-width: 1200px;
+margin: auto;  
+}
+.Blog .Blog-flex{
+    display: flex;
+gap: 1vw;
+flex-wrap: nowrap;
+}
+.Blog .card3{
+ 
+   
+    padding: 1vw;
+  
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+   
+box-shadow: 0 0 2px rgba(0, 0, 0, 0.40);
+
+}
+.Blog h4{
+    color: var(--theme-color);
+}
+.Blog img{
+
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+
+}
+.Blog .card3 .heart{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.Blog .card3 .calendar{
+    display: flex;
+
+    justify-content: flex-start;
 }
 
 
