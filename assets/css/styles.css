@@ -188,12 +188,12 @@ button{
 
 .Arrivals h1{
 text-align: center;
-margin-bottom: 2rem;
-font-size: 2rem;
+margin-bottom: 4vw;
+font-size: 2vw;
 
 }
 .Arrivals{
- padding:  40px 20px;
+ padding:  5vw;
  max-width: 1200px;
 margin: auto;
 
@@ -203,12 +203,12 @@ margin: auto;
 .Arrivals .arrivals-grid{
     display: grid;
     grid-template-columns: repeat(5,1fr);
-    gap: 25px;
+    gap: 5vw;
     
 }
 .Arrivals .card1{
   border: solid #9b9b9b;
-    padding: 15px;
+    padding: 3vw;
  
     background: #fff;
     transition: 0.3s;
@@ -216,8 +216,8 @@ margin: auto;
 }
 
 .Arrivals .card1 img{
-    width: 80%;
-    height: 70%;
+    width: 100%;
+    height:auto;
     object-fit: cover;
   
 }
@@ -226,8 +226,9 @@ margin: auto;
 
 }
 .Arrivals .star-rating{
+    display: inline-flex;
     color: #f4c300;
-        margin: 8px 0;
+     margin: 8px 0;
 }
 
 
