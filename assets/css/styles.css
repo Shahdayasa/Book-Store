@@ -195,10 +195,7 @@ font-size: 2vw;
 .Arrivals{
  padding:  5vw;
  max-width: 1200px;
-margin: auto;
-
- 
-  
+margin: auto;  
 }
 .Arrivals .arrivals-grid{
     display: grid;
@@ -230,6 +227,30 @@ margin: auto;
     color: #f4c300;
      margin: 8px 0;
 }
+
+.Reviews{
+     padding:  5vw;
+ max-width: 1200px;
+margin: auto;  
+}
+.Reviews .Reviews-flex{
+display: flex;
+
+}
+.Reviews .img{
+
+  
+}
+.Reviews .card2{
+    border: solid #5ab0b3;
+    padding: 5vw;
+    margin: auto;
+    gap: 30px;
+
+}
+
+
+
 
 
         footer {
