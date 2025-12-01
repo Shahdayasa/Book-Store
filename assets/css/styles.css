@@ -335,9 +335,11 @@ color:#ddd;
 margin: auto;  
 }
 .Blog .Blog-flex{
+    
     display: flex;
 gap: 5vw;
-flex-wrap: nowrap;
+flex-wrap: wrap;
+justify-content: center;
 }
 .Blog .card3{
   
@@ -346,6 +348,8 @@ flex-wrap: nowrap;
     display: flex;
     flex-direction: column; 
 box-shadow: 0 0 2px rgba(0, 0, 0, 0.40);
+flex-wrap: wrap;
+justify-content: center;
 
 }
 .Blog h4{
