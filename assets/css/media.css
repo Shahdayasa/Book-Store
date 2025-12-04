@@ -55,15 +55,15 @@
     #menu-check:checked ~ nav {
         display: block;
     }
-
     nav ul {
         flex-direction: column;
-        background-color: rgba(255, 255, 255, 0.98);
+    background: rgba(255, 255, 255, 0.3);
         padding: 20px 0;
         gap: 0;
         text-align: center;
         backdrop-filter: blur(10px);
         box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        z-index: 60;
     }
 
     nav ul li {
@@ -101,7 +101,10 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1rem;
+    
   }
+ .carousel .card1 {
+        width: 100%;     
+        max-width: 100%;
+    }
 }
-
-
