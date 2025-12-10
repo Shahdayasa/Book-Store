@@ -2,19 +2,19 @@
     --theme-color: #6fc6c9;
     --transition-speed: 0.3s;
 }
+img {
+  height: auto;
+max-width: 100%;
+}
 body {
   overflow-x: hidden;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 .container,
 .about {
   display: grid;
-  grid-template-columns: 1fr;
-  place-items: center;
+    grid-template-columns: 1fr;
+    place-items: center;
 }
 
 .navbar {
@@ -42,8 +42,8 @@ ul {
     list-style: none;
     display: flex;
     gap: 30px;
+        margin: 0;
     padding: 0;
-    margin: 0;
 }
 
 li a {
