@@ -22,9 +22,9 @@ display: block;
 }
 .Reviews .fa-quote-right{
     position: absolute;
-    top: 0.5vw;
     right: 1vw;
 font-size: 10vw;
+    top: 0.5vw;
 padding-right: 10vw;
 opacity: 0.8;
 pointer-events: none;
