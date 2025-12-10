@@ -150,6 +150,7 @@ button{
 .featured  h1{
         text-align: center;
     }
+
 .carousel{
     display: flex;
     overflow-x: auto;
