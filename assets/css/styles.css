@@ -249,8 +249,9 @@ flex-wrap: nowrap;
 }
 .Reviews .card2{
     border: solid var(--theme-color);
+        margin: auto;
     padding: 1vw;
-    margin: auto;
+
     width: 90%;
     display: flex;
     flex-direction: column;
