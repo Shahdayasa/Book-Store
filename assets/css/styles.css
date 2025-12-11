@@ -1,6 +1,6 @@
 :root {
+     --transition-speed: 0.2s;
     --theme-color: #6fc6c9;
-    --transition-speed: 0.3s;
 }
 body {
   overflow-x: hidden;
