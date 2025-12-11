@@ -253,10 +253,12 @@ flex-wrap: nowrap;
     padding: 1vw;
 
     width: 90%;
+    
     display: flex;
-    flex-direction: column;
-    position: relative;
+        flex-direction: column;
     overflow: hidden;
+    position: relative;
+
     box-shadow: 0 0 15px rgba(60, 176, 179, 0.2);
 
     
